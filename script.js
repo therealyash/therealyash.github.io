@@ -69,5 +69,26 @@ window.addEventListener('scroll', function() {
   }
 });
 
+// Generate random hexagon particles
+function createHexagon() {
+    const hexagon = document.createElement("div");
+    hexagon.className = "hexagon";
+    const size = Math.random() * .5 + 2.5;
+    hexagon.style.width = `${size}px`;
+    hexagon.style.height = `${size}px`;
+    hexagon.style.top = `${Math.random() * 100}%`;
+    hexagon.style.left = `${Math.random() * 100}%`;
+
+    // Random animation duration
+    const duration = Math.random() * 10 + 5;
+    hexagon.style.animation = `moveHexagon ${duration}s linear infinite`;
+
+    document.querySelector(".particles").appendChild(hexagon);
+}
+
+// Create initial particles
+for (let i = 0; i < 60; i++) {
+    createHexagon();
+}
 
 

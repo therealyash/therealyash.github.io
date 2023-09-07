@@ -190,7 +190,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -201,8 +201,8 @@ a:hover {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
-  color: black;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -238,6 +238,40 @@ a:hover {
 .hamburger-icon span:first-child {
   transform: none;
 }
+/**/
+
+body {
+ 
+  background-color: #ffffff; /* Background color */
+}
+
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -9999;
+}
+
+@keyframes moveHexagon {
+  0% {
+      transform: translateY(30 vh) rotate(0deg);
+  }
+  100% {
+      transform: translateY(20vh) rotate(360deg);
+  }
+}
+
+.hexagon {
+  position: absolute;
+  background-color: #000000; /* Hexagon color */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform-origin: center;
+  animation-timing-function: linear;
+  opacity: 0.5;
+}
+
+
 
 /* SECTIONS */
 
