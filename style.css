@@ -213,7 +213,7 @@ a:hover {
 /* Media query for mobile devices (adjust the max-width as needed) */
 @media (max-width: 768px) {
   .logo {
-    font-size: 2.5rem !important;
+    font-size: 2.3rem !important;
   }
 }
 
