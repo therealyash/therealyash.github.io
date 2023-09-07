@@ -1,6 +1,11 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +13,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 html {
@@ -131,7 +136,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 a {
@@ -150,13 +155,66 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 1.5rem;
+@font-face {
+  font-family: labelle; /* You can name the font-family as you like */
+  src: url('labelle.ttf') format('truetype'); /* Use 'truetype' instead of 'ttf' */
+  /* Provide different font file formats for browser compatibility */
+  /* You may need to specify more formats depending on the font types you have */
 }
+
+@font-face {
+  font-family: bulgati; /* You can name the font-family as you like */
+  src: url('bulgati.ttf') format('truetype'); /* Use 'truetype' instead of 'ttf' */
+  /* Provide different font file formats for browser compatibility */
+  /* You may need to specify more formats depending on the font types you have */
+}
+
+@font-face {
+  font-family: caveat; /* You can name the font-family as you like */
+  src: url('caveat.ttf') format('truetype'); /* Use 'truetype' instead of 'ttf' */
+  /* Provide different font file formats for browser compatibility */
+  /* You may need to specify more formats depending on the font types you have */
+}
+
+
+/* .logo {
+  font-family: caveat, sans-serif; 
+  font-size: 2.5rem;
+  font-weight: 400;
+} 
+
 
 .logo:hover {
   cursor: default;
 }
+
+
+
+
+.logo:hover {
+  cursor: default;
+} */
+
+/* Default logo styles for desktop */
+.logo {
+  font-family: caveat, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+/* Hover effect */
+.logo:hover {
+  cursor: default;
+}
+
+/* Media query for mobile devices (adjust the max-width as needed) */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 10rem; /* Adjust the font size for mobile devices */
+    /* You can also adjust other styles like padding or margin if needed */
+  }
+}
+
 
 /* HAMBURGER MENU */
 
@@ -271,6 +329,11 @@ body {
   opacity: 0.5;
 }
 /**/
+
+
+
+
+
 
 /* Certifications */
 
