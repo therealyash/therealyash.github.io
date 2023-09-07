@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yashraj Limkar - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+      /* Style for underlining hyperlinks */
+      
+    </style>
+    
+  </head>
+  <body>
+    
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html">Yashraj Limkar</a></div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+          </ul>
+          
+        </div>
+        
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Yashraj Limkar</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="skills.html" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            
+          </div>
+        </div>
+        
+      </nav>
+    </section>
+   
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <div class="centered-text-container">
+            <p>
+                Feel free to contact me via email or LinkedIn for inquiries or to connect. 
+                You can also check out my work on GitHub to explore my portfolio and see my 
+                latest projects. I look forward to connecting with you!
+            </p>
+        </div>
+        <br>
+
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="yashraj1416@gmail.com">yashraj1416@gmail.com</a></p>
+          </div>
+          <br>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/yashraj-limkar/">LinkedIn</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/github.png"
+              alt="Github icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://github.com/therealyash">Github</a></p>
+          </div>
+        </div>
+        
+        <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="nav-links">
+                  <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+            <p>Copyright &#169; 2023 Yashraj Limkar. All Rights Reserved.</p>
+          </footer>
+
+      </section>
+
+      
+
+    <script src="script.js">
+          
+    </script>
+    <div id="goToTopBtn" onclick="scrollToTop()" style="border: 2px solid #000000;">
+        <img src="assets/arrow.png" alt="Go to Top" style="width: 20px; height: 16px; "/> <!-- Replace 'path-to-your-icon.png' with the actual path to your icon -->
+      </div>
+    </body>
+    </html>
