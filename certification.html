@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yashraj Limkar - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="shortcut icon" href="./assets/favicon.png" />
+  <style>
+    /* Style for underlining hyperlinks */
+  </style>
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"><a href="index.html">Yashraj Limkar</a></div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="certification.html">Certifications</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"><a href="index.html">Yashraj Limkar</a></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+        <li><a href="skills.html" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        <li><a href="certification.html" onclick="toggleMenu()">Certifications</a></li>
+        
+      </div>
+    </div>
+  </nav>
+</section>
+
+<section id="projects">
+    <p class="section__text__p1">Here are my</p>
+    <h1 class="title">Certifications</h1>
+    <div class="centered-text-container">
+      <p>
+        Here, you'll find a curated selection of my certifications, showcasing my expertise 
+        and commitment to continuous improvement. Each certification represents a milestone 
+        in my professional journey.
+      </p>
+    </div>
+    <br>
+    <div class="certification-list">
+        <div class="certification">
+            <a href="https://www.credential.net/762b243b-f404-4aa6-8449-e498ad3a2b75?key=b6541e88972d136697fb8d71f36ddee60e448d29f6baad2d3f4670fbe785d707" target="_blank">
+                <img src="./assets/gcp.png" alt="GCP - CDL">
+                <p>GCP - CDL</p>
+            </a>
+        </div>
+        <div class="certification">
+            <a href="https://www.credly.com/badges/ac51c1cd-8b4e-4630-8c6e-730e1444f65e/public_url" target="_blank">
+                <img src="./assets/az.png" alt="AZ -900">
+                <p>AZ - 900</p>
+            </a>
+        </div>
+        <div class="certification">
+            <a href="https://www.credly.com/badges/73f105b3-d33d-442a-a9d8-7f7d83dd7f5c" target="_blank">
+                <img src="./assets/azdf.png" alt="DP - 900">
+                <p>DP - 900</p>
+            </a>
+        </div>
+        <div class="certification">
+            <a href="https://learn.microsoft.com/en-us/users/yashrajlimkar-5652/credentials/7649bd44776d0fdd" target="_blank">
+                <img src="./assets/azai.png" alt="AI - 900">
+                <p>AI - 900</p>
+            </a>
+        </div>
+        <div class="certification">
+            <a href="https://www.credly.com/badges/5f769adc-8d19-48b8-8fd9-7e6bd9d2c1db" target="_blank">
+                <img src="./assets/itaut.png" alt="IT Automation">
+                <p>IT Automation</p>
+            </a>
+        </div>
+        <div class="certification">
+            <a href="https://www.guvi.in/verify-certificate?id=107b601o2zJa98T962&course=pythonEng" target="_blank">
+                <img src="./assets/guvi.png" alt="AI For India">
+                <p>AI For India</p>
+            </a>
+        </div>
+        <div class="certification">
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/5N2ygyhzMWjKQmgCK_Cognizant_rNA9ytGmWukLoCcLW_1663141292967_completion_certificate.pdf" target="_blank">
+                <img src="./assets/cog.png" alt="AI Virtual Experience">
+                <p>AI Virtual Experience</p>
+            </a>
+        </div>
+        <div class="certification">
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/British%20Airways/NjynCWzGSaWXQCxSX_British%20Airways_rNA9ytGmWukLoCcLW_1671040494446_completion_certificate.pdf" target="_blank">
+                <img src="./assets/ba.png" alt="Data Science Virtual Experience">
+                <p>Data Science Virtual Experience</p>
+            </a>
+        </div>
+        
+</section>
+<br>
+<br>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Yashraj Limkar. All Rights Reserved.</p>
+  </footer>
+  <br>
+  <br>
+  <script src="script.js"></script>
+  <div id="goToTopBtn" onclick="scrollToTop()" style="border: 2px solid #000000;">
+    <img src="assets/arrow.png" alt="Go to Top" style="width: 20px; height: 16px; "/>
+  </div>
+</body>
+</html>
