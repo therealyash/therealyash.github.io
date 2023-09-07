@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html {
@@ -53,6 +53,9 @@ p {
 /*Loading*/
 * {
 	margin: 0;
+}
+.centered-paragraph {
+  text-align: center;
 }
 
 
@@ -199,7 +202,7 @@ a:hover {
 .logo {
   font-family: caveat, sans-serif;
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* Hover effect */
@@ -210,10 +213,10 @@ a:hover {
 /* Media query for mobile devices (adjust the max-width as needed) */
 @media (max-width: 768px) {
   .logo {
-    font-size: 10rem; /* Adjust the font size for mobile devices */
-    /* You can also adjust other styles like padding or margin if needed */
+    font-size: 2.5rem !important;
   }
 }
+
 
 
 /* HAMBURGER MENU */
