@@ -91,10 +91,3 @@ for (let i = 0; i < 60; i++) {
     createHexagon();
 }
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-00X6KB94KP"></script>
-
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-00X6KB94KP');
